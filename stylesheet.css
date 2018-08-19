@@ -1,0 +1,136 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+/* containerクラスのCSSを指定してください */
+
+header{
+  width: 100%;
+  height: 65px;
+  background-color: rgba(255,255,255, 1);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo{
+  width: 124px;
+  float: left;
+  margin-top: 5px;
+  position: absolute;
+}
+
+.container {
+  width: 100%;
+  padding: 0px 15px;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+
+/* top-wrapperクラスのCSSを指定してください */
+.top-wrapper{
+  padding-top: 180px;
+  padding-bottom: 100px;
+  background-image: url(https://github.com/Mochimoon/mochio/blob/master/fireworks.jpg?raw=true);
+  color: white;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.clear{
+  clear: left;
+}
+
+.photo-wrapper{
+  padding-bottom: 80px;
+  padding-top: 30px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.heading h2{
+  font-weight: normal;
+  padding-top: 10px;
+}
+
+.photo{
+  float: left;
+  width: 25%;
+  padding: 20px;
+}
+
+.photo-icon{
+  position: relative;
+}
+
+.link-hover a{
+  background-color: red;
+  font-size: 30px;
+  position: absolute;
+  top: 55px;
+  left: 55px;
+  padding: 5px 10px;
+  display: none;
+
+}
+
+.text-active{
+  display: block;
+}
+
+.photo img{
+  width: 100%;
+}
+
+.message-wrapper{
+  background-color: #5dca88;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.message-wrapper h3{
+  font-weight: normal;
+  text-align: center;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 1;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.fa {
+  margin-right: 10px;
+}
